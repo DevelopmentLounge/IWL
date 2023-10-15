@@ -1,0 +1,6 @@
+class StructureError(Exception):
+    ...
+
+
+class StyleParseError(Exception):
+    ...
