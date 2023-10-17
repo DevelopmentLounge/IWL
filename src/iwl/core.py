@@ -52,6 +52,9 @@ class BaseEngine(Engine):
             else:
                 break
 
+        # TODO: Modify include: when file included the _containers, _objects, _animations and _scripts get merged
+        #  into the current file.
+
         code = code.replace(": -", ": ​-")
 
         try:
