@@ -59,7 +59,7 @@ class BaseEngine(Engine):
         except:
             raise SyntaxError("Exception while parsing the iwl converted yaml file.")
 
-        script = data.get("_script", None)
+        script = data.get("_scripts", None)
         objects = data.get("_objects", None)
         structure = data.get("_structure", None)
         animations = data.get("_animations", None)
